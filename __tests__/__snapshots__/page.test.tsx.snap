@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders homepage unchanged 1`] = `
+<DocumentFragment>
+  <main
+    class="flex min-h-screen flex-col items-center justify-center bg-info-semantic p-4"
+  >
+    <section
+      class="container flex w-full max-w-[500px] flex-col gap-4 rounded-lg bg-neutral-white p-6 shadow-lg"
+    >
+      <div
+        class="flex flex-col gap-12"
+      >
+        <div
+          class="flex flex-col items-center gap-1"
+        >
+          <h1
+            class="!text-h3 text-center text-primary-main"
+          >
+            Masuk
+          </h1>
+          <h2
+            class="!text-p14 text-center text-neutral-dark"
+          >
+            Masuk ke akun anda untuk melanjutkan ke aplikasi
+          </h2>
+        </div>
+        <form
+          class="flex flex-col gap-4"
+        >
+          <div
+            class="space-y-2"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <label
+                class="text-b14 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 !text-b14"
+                for=":r0:-form-item"
+              >
+                Email
+                <span
+                  class="text-danger"
+                >
+                   *
+                </span>
+              </label>
+            </div>
+            <div
+              class="relative"
+            >
+              <input
+                aria-describedby=":r0:-form-item-description"
+                aria-invalid="false"
+                class="file:text-sm flex w-full rounded-md border border-neutral-light px-4 py-3 !text-p14 text-neutral outline-none transition-all duration-200 file:border-0 file:bg-transparent file:font-medium placeholder:text-neutral focus:shadow disabled:cursor-not-allowed disabled:bg-neutral-semantic disabled:text-neutral-light placeholder:disabled:text-neutral-light bg-neutral-semantic"
+                id=":r0:-form-item"
+                name="email"
+                placeholder="Contoh: test@mail.com"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="space-y-2"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <label
+                class="text-b14 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 !text-b14"
+                for=":r1:-form-item"
+              >
+                Password
+                <span
+                  class="text-danger"
+                >
+                   *
+                </span>
+              </label>
+            </div>
+            <div
+              class="relative"
+            >
+              <input
+                aria-describedby=":r1:-form-item-description"
+                aria-invalid="false"
+                class="file:text-sm flex w-full rounded-md border border-neutral-light px-4 py-3 !text-p14 text-neutral outline-none transition-all duration-200 file:border-0 file:bg-transparent file:font-medium placeholder:text-neutral focus:shadow disabled:cursor-not-allowed disabled:bg-neutral-semantic disabled:text-neutral-light placeholder:disabled:text-neutral-light pr-11 bg-neutral-semantic"
+                id=":r1:-form-item"
+                name="password"
+                placeholder="Masukkan password anda"
+                type="password"
+                value=""
+              />
+              <div
+                class="right-4 absolute top-0 flex h-full items-center justify-center"
+              >
+                <button
+                  class="inline-flex items-center justify-center whitespace-nowrap transition-colors disabled:cursor-not-allowed data-[variant=filled]:disabled:bg-neutral-semantic data-[variant=filled]:disabled:text-neutral-gray data-[variant=outlined]:disabled:border-neutral-gray data-[variant=outlined]:disabled:bg-transparent data-[variant=outlined]:disabled:text-neutral-gray data-[variant=ghost]:disabled:bg-transparent data-[variant=ghost]:disabled:text-neutral-gray data-[variant=soft]:disabled:bg-neutral-semantic data-[variant=soft]:disabled:text-neutral-gray data-[variant=filled]:bg-primary data-[variant=filled]:text-neutral-white data-[variant=filled]:hover:bg-primary-dark data-[variant=outlined]:border data-[variant=outlined]:border-primary data-[variant=outlined]:bg-transparent data-[variant=outlined]:text-primary data-[variant=outlined]:hover:bg-primary data-[variant=outlined]:hover:text-neutral-white data-[variant=ghost]:bg-transparent data-[variant=ghost]:text-primary data-[variant=ghost]:hover:bg-primary-semantic data-[variant=soft]:bg-primary-semantic data-[variant=soft]:text-primary data-[variant=soft]:hover:bg-primary data-[variant=soft]:hover:text-neutral-white rounded-full !bg-transparent !text-neutral-dark hover:!bg-neutral-semantic p-1"
+                  data-variant="filled"
+                  type="button"
+                >
+                  <svg
+                    class="lucide lucide-eye"
+                    fill="none"
+                    height="20"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr
+            class="border-neutral-semantic"
+          />
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap transition-colors disabled:cursor-not-allowed data-[variant=filled]:disabled:bg-neutral-semantic data-[variant=filled]:disabled:text-neutral-gray data-[variant=outlined]:disabled:border-neutral-gray data-[variant=outlined]:disabled:bg-transparent data-[variant=outlined]:disabled:text-neutral-gray data-[variant=ghost]:disabled:bg-transparent data-[variant=ghost]:disabled:text-neutral-gray data-[variant=soft]:disabled:bg-neutral-semantic data-[variant=soft]:disabled:text-neutral-gray rounded-md px-3 py-2.5 !text-b14 data-[variant=filled]:bg-primary data-[variant=filled]:text-neutral-white data-[variant=filled]:hover:bg-primary-dark data-[variant=outlined]:border data-[variant=outlined]:border-primary data-[variant=outlined]:bg-transparent data-[variant=outlined]:text-primary data-[variant=outlined]:hover:bg-primary data-[variant=outlined]:hover:text-neutral-white data-[variant=ghost]:bg-transparent data-[variant=ghost]:text-primary data-[variant=ghost]:hover:bg-primary-semantic data-[variant=soft]:bg-primary-semantic data-[variant=soft]:text-primary data-[variant=soft]:hover:bg-primary data-[variant=soft]:hover:text-neutral-white w-full"
+            data-variant="filled"
+            disabled=""
+            type="submit"
+          >
+            Masuk
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+</DocumentFragment>
+`;
